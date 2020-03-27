@@ -11,3 +11,11 @@ This means:
 ### [JEI Developer Wiki](https://github.com/mezz/JustEnoughItems/wiki)
 
 IRC: [#JEI on EsperNet](https://webchat.esper.net/?nick=JEIGithub...&channels=JEI)
+
+~ this fork contains a new branch "1.7.10" because Lightkeks and I want to use JEI for
+  our FTB Infinity Evolved Skyblock playthrough since we just find JEIs features awesome.
+  Also I wanted to get into Forge stuff again and porting seems interesting, let's see
+  where this goes.
+~ I am using Visual Studio Code for developing - after my changes to gradle.properties
+  and build.gradle it works cleanly after "./gradlew setupDecompWorkspace eclipse" on
+  a clean folder of this branch
