@@ -1,6 +1,6 @@
 package mezz.jei.config;
 
-import net.minecraftforge.fml.common.eventhandler.Event;
+import cpw.mods.fml.common.eventhandler.Event;
 
 public class BookmarkOverlayToggleEvent extends Event {
 	private final boolean bookmarkOverlayEnabled;

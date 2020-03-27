@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import mezz.jei.util.ErrorUtil;
-import net.minecraftforge.fml.common.ProgressManager;
+import cpw.mods.fml.common.ProgressManager;
 import net.minecraft.util.NonNullList;
 
 import com.google.common.base.Stopwatch;

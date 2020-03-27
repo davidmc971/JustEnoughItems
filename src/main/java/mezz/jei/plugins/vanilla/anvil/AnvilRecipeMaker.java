@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import cpw.mods.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraft.client.Minecraft;
 import net.minecraft.enchantment.Enchantment;

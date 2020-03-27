@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import net.minecraftforge.fml.common.discovery.ASMDataTable;
+import cpw.mods.fml.common.discovery.ASMDataTable;
 
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JEIPlugin;

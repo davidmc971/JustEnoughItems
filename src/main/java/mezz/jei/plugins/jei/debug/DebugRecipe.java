@@ -5,8 +5,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import net.minecraftforge.fml.client.config.GuiButtonExt;
-import net.minecraftforge.fml.client.config.HoverChecker;
+import cpw.mods.fml.client.config.GuiButtonExt;
+import cpw.mods.fml.client.config.HoverChecker;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraft.client.Minecraft;

@@ -3,7 +3,7 @@ package mezz.jei.gui;
 import java.util.Collections;
 import java.util.List;
 
-import net.minecraftforge.fml.client.config.GuiUtils;
+import cpw.mods.fml.client.config.GuiUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.ScaledResolution;

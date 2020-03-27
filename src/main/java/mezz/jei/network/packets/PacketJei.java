@@ -1,6 +1,6 @@
 package mezz.jei.network.packets;
 
-import net.minecraftforge.fml.common.network.internal.FMLProxyPacket;
+import cpw.mods.fml.common.network.internal.FMLProxyPacket;
 import net.minecraft.network.PacketBuffer;
 
 import io.netty.buffer.Unpooled;

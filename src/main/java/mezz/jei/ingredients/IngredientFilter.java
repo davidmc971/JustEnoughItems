@@ -11,8 +11,8 @@ import java.util.function.Function;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.minecraftforge.fml.common.ProgressManager;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import cpw.mods.fml.common.ProgressManager;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.util.NonNullList;
 
 import com.google.common.collect.ImmutableList;

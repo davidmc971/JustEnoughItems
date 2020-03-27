@@ -1,6 +1,6 @@
 package mezz.jei.startup;
 
-import net.minecraftforge.fml.common.eventhandler.Event;
+import cpw.mods.fml.common.eventhandler.Event;
 
 public class PlayerJoinedWorldEvent extends Event {
 }

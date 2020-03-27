@@ -5,6 +5,6 @@ package mezz.jei.api;
 
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import net.minecraftforge.fml.common.API;
+import cpw.mods.fml.common.API;
 
 import mcp.MethodsReturnNonnullByDefault;

@@ -3,10 +3,10 @@ package mezz.jei.config;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.minecraftforge.fml.client.FMLClientHandler;
-import net.minecraftforge.fml.client.GuiModList;
-import net.minecraftforge.fml.client.config.GuiConfig;
-import net.minecraftforge.fml.client.config.IConfigElement;
+import cpw.mods.fml.client.FMLClientHandler;
+import cpw.mods.fml.client.GuiModList;
+import cpw.mods.fml.client.config.GuiConfig;
+import cpw.mods.fml.client.config.IConfigElement;
 import net.minecraftforge.common.config.ConfigCategory;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;

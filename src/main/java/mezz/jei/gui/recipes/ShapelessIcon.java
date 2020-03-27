@@ -4,7 +4,7 @@ import javax.annotation.Nullable;
 import java.util.Collections;
 import java.util.List;
 
-import net.minecraftforge.fml.client.config.HoverChecker;
+import cpw.mods.fml.client.config.HoverChecker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 

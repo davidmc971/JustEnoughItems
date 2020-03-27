@@ -2,7 +2,7 @@ package mezz.jei.gui.recipes;
 
 import java.util.List;
 
-import net.minecraftforge.fml.client.config.HoverChecker;
+import cpw.mods.fml.client.config.HoverChecker;
 import net.minecraft.client.Minecraft;
 
 import mezz.jei.Internal;

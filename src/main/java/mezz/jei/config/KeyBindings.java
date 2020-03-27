@@ -2,7 +2,7 @@ package mezz.jei.config;
 
 import java.util.List;
 
-import net.minecraftforge.fml.client.registry.ClientRegistry;
+import cpw.mods.fml.client.registry.ClientRegistry;
 import net.minecraftforge.client.settings.KeyConflictContext;
 import net.minecraftforge.client.settings.KeyModifier;
 import net.minecraft.client.Minecraft;

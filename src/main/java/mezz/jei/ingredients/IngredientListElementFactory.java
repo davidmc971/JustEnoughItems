@@ -3,7 +3,7 @@ package mezz.jei.ingredients;
 import javax.annotation.Nullable;
 import java.util.Collection;
 
-import net.minecraftforge.fml.common.ProgressManager;
+import cpw.mods.fml.common.ProgressManager;
 import net.minecraft.util.NonNullList;
 
 import mezz.jei.api.ingredients.IIngredientHelper;

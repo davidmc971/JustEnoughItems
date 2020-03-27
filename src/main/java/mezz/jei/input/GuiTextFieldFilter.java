@@ -5,7 +5,7 @@ import java.awt.Rectangle;
 import java.util.LinkedList;
 import java.util.List;
 
-import net.minecraftforge.fml.client.config.HoverChecker;
+import cpw.mods.fml.client.config.HoverChecker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.client.renderer.GlStateManager;
