@@ -13,6 +13,7 @@ import java.util.List;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.JsonToNBT;
+import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTException;
 import net.minecraft.nbt.NBTTagCompound;
 
@@ -59,7 +60,7 @@ public class BookmarkList implements IIngredientGridSource {
 		IIngredientHelper<T> ingredientHelper = ingredientRegistry.getIngredientHelper(ingredient);
 		T copy = LegacyUtil.getIngredientCopy(ingredient, ingredientHelper);
 		if (copy instanceof ItemStack) {
-			((ItemStack) copy).setCount(1);
+			((ItemStack) copy).stackSize = 1;//.setCount(1);
 		} else if (copy instanceof FluidStack) {
 			((FluidStack) copy).amount = 1000;
 		}
@@ -144,9 +145,9 @@ public class BookmarkList implements IIngredientGridSource {
 			if (ingredientJsonString.startsWith(MARKER_STACK)) {
 				String itemStackAsJson = ingredientJsonString.substring(MARKER_STACK.length());
 				try {
-					NBTTagCompound itemStackAsNbt = JsonToNBT.getTagFromJson(itemStackAsJson);
-					ItemStack itemStack = new ItemStack(itemStackAsNbt);
-					if (!itemStack.isEmpty()) {
+					NBTTagCompound itemStackAsNbt = (NBTTagCompound) JsonToNBT.func_150315_a(itemStackAsJson); // TODO: is this okay?
+					ItemStack itemStack = ItemStack.loadItemStackFromNBT(itemStackAsNbt);
+					if (itemStack.stackSize > 0) { // TODO: valid workaround to !isEmpty() ?
 						ItemStack normalized = normalize(itemStack);
 						addToLists(normalized, false);
 					} else {
